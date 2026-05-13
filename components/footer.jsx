@@ -1,6 +1,12 @@
+import {
+    FiPhone,
+    FiMail,
+    FiMapPin,
+} from "react-icons/fi";
+
 export default function Footer() {
     return (
-        <footer className="bg-[#F8EFEF] py-12">
+        <footer className="bg-[#fef7f6] py-12">
             <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-8">
 
                 <div className="max-w-md">
@@ -9,10 +15,8 @@ export default function Footer() {
                         <span className="text-[#FF725E]">cheen</span>
                     </h2>
 
-                    <p className="text-base text-[#999999]">
-                        The most accurate and simplest time tracking for all of you.
-                        and we have been serving for more than 4 years and have made
-                        you happy.
+                    <p className="text-base text-[#959393]">
+                        The most accurate and simplest time tracking for all of you and we have been serving for more than 4 years and have made you happy.
                     </p>
                 </div>
 
@@ -22,27 +26,27 @@ export default function Footer() {
                             About Us
                         </h3>
 
-                        <ul className="space-y-4 text-base text-[#999999]">
+                        <ul className="space-y-4 text-base text-[#959393] ">
                             <li>
-                                <a href="#">
+                                <a href="/" className="hover:text-black">
                                     Our people
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="/" className="hover:text-black">
                                     Our categories
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="/" className="hover:text-black">
                                     Contact us
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="/" className="hover:text-black">
                                     Testimonial
                                 </a>
                             </li>
@@ -54,21 +58,21 @@ export default function Footer() {
                             Product
                         </h3>
 
-                        <ul className="space-y-4 text-base text-[#999999]">
+                        <ul className="space-y-4 text-base text-[#959393]">
                             <li>
-                                <a href="#">
+                                <a href="/" className="hover:text-black">
                                     Task Management
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="/" className="hover:text-black">
                                     Service
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="/" className="hover:text-black">
                                     Task Schedule
                                 </a>
                             </li>
@@ -80,23 +84,23 @@ export default function Footer() {
                             Contact us
                         </h3>
 
-                        <ul className="space-y-4 text-base text-[#999999]">
+                        <ul className="space-y-4 text-base text-[#959393]">
 
                             <li className="flex items-start gap-4">
-                                <span>📞</span>
+                                <FiPhone className="text-xl mt-1 text-[#959393]"/>
                                 <span>(021) 3258 4930</span>
                             </li>
 
                             <li className="flex items-start gap-4">
-                                <span>✉️</span>
+                                <FiMail className="text-xl mt-1 text-[#959393]"/>
                                 <span>Pokan@Hola.com</span>
                             </li>
 
                             <li className="flex items-start gap-4">
-                                <span>📍</span>
+                                <FiMapPin className="text-xl mt-1 text-[#959393]"/>
                                 <span>
                                     Sukabumi, Jawa Barat
-                                    <br />
+                                    <br/>
                                     Indonesia, IDN
                                 </span>
                             </li>
